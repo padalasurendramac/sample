@@ -35,8 +35,12 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
  
-      - name: test version
+      - name: test p
+        run: chmod +x Test.sh
+
+      - name: run
         run: ./Test.sh
+
 
 
 
