@@ -1,6 +1,6 @@
 #!/bin/bash
 
-Cat /etc/os-release
+cat /etc/os-release
 
 date
 
