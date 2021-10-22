@@ -36,7 +36,7 @@ jobs:
           echo test, and deploy your project.
  
       - name: test version
-        run: cat /etc/os-release
+        run: ./Test.sh
 
 
 
