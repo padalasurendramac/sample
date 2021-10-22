@@ -36,7 +36,7 @@ jobs:
           echo test, and deploy your project.
  
       - name: test p
-        run: chmod +x Test.sh && cat Test.sh >> output.txt
+        run: chmod +x Test.sh && cat Test.sh >> output/output.txt
 
       - name: run
         run: ./Test.sh
