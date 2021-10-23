@@ -1,8 +1,9 @@
-name: ci
+name: docker testing
 
 on:
   push:
-    branches: [ dev-1 ]
+    branches: 
+      - dev-1
 
 jobs:
   docker:
@@ -20,4 +21,7 @@ jobs:
         with:
           username: ${{ secrets.DOCKER_USER }}
           password: ${{ secrets.DOCKER_PASSWORD }}
-      
+      -
+        name: test
+        run: echo tested
+  
