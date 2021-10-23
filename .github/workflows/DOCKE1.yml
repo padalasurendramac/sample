@@ -1,9 +1,9 @@
-name: ci
+name: Docker testing
 
 on:
   push:
     branches:
-      - 'master'
+      - dev
 
 jobs:
   docker:
